@@ -8,6 +8,7 @@ const app = express();
 const connectDB = require('./db/connect');
 
 // error handler
+
 const notFoundMiddleware = require('./middleware/not-found');
 const errorHandlerMiddleware = require('./middleware/error-handler');
 
